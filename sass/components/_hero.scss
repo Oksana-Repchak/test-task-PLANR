@@ -1,0 +1,72 @@
+.hero {
+  padding-top: 60px;
+  padding-bottom: 101px;
+
+  background-color: $background-accent-color;
+
+  .section-title {
+    text-transform: uppercase;
+    margin-bottom: 36px;
+  }
+}
+
+.hero-subtitle {
+  margin-bottom: 30px;
+  color: $title-text-color;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.section-description {
+  margin: 0 auto;
+  margin-bottom: 80px;
+
+  width: 700px;
+  line-height: 1.56;
+  text-align: center;
+}
+
+.hero-title-accent {
+  position: relative;
+  padding: 4px 26px;
+  background-color: $accent-color;
+  color: $accent-color-white;
+
+  border-radius: 10px;
+
+  &::before {
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    transform: translate(10px, 5px);
+    display: inline-block;
+    content: "";
+    width: 17px;
+    height: 17px;
+    background-image: url("../../images/circle.svg");
+    background-repeat: no-repeat;
+    background-position: 48% 40%;
+    border-radius: 50%;
+  }
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-10px, -5px);
+    display: inline-block;
+    content: "";
+    width: 17px;
+    height: 17px;
+    background-image: url("../../images/circle.svg");
+    background-repeat: no-repeat;
+    background-position: 48% 40%;
+    border-radius: 50%;
+  }
+}
+
+.hero-image {
+  margin: 0 auto;
+}

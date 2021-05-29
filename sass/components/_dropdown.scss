@@ -1,0 +1,78 @@
+.dropbtn {
+  cursor: pointer;
+  width: 76px;
+
+  .drop-title {
+    position: relative;
+    left: 40%;
+    color: $title-text-color;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+
+    width: 24px;
+    height: 24px;
+
+    background: url("../../images/united-kingdom.svg") no-repeat left center;
+  }
+
+  &::after {
+    position: absolute;
+
+    background: url("../../images/frame.svg") no-repeat scroll center center;
+    content: "";
+    width: 16px;
+    height: 16px;
+    right: 0;
+    bottom: 30%;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 37px;
+}
+
+.dropdown-content {
+  position: absolute;
+
+  display: none;
+  background-color: #f9f9f9;
+
+  top: 85%;
+}
+
+.dropdown-content {
+  @extend %list;
+
+  .item:first-child {
+    margin-right: 8px;
+    background: url("../../images/united-kingdom.svg") no-repeat left center;
+  }
+
+  .item:last-child {
+    margin-right: 8px;
+    background: url("../../images/germany.svg") no-repeat left center;
+  }
+
+  .link {
+    color: $title-text-color;
+    padding: 2px 0 2px 25px;
+    text-decoration: none;
+    display: block;
+  }
+}
+
+.dropdown-content {
+  .link:hover {
+    border: 1px solid $accent-color;
+  }
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
