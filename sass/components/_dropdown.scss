@@ -15,13 +15,13 @@
     width: 24px;
     height: 24px;
 
-    background: url("../../images/united-kingdom.svg") no-repeat left center;
+    background: url(".../../images/united-kingdom.svg") no-repeat left center;
   }
 
   &::after {
     position: absolute;
 
-    background: url("../../images/frame.svg") no-repeat scroll center center;
+    background: url(".../../images/frame.svg") no-repeat scroll center center;
     content: "";
     width: 16px;
     height: 16px;
@@ -50,12 +50,12 @@
 
   .item:first-child {
     margin-right: 8px;
-    background: url("../../images/united-kingdom.svg") no-repeat left center;
+    background: url(".../../images/united-kingdom.svg") no-repeat left center;
   }
 
   .item:last-child {
     margin-right: 8px;
-    background: url("../../images/germany.svg") no-repeat left center;
+    background: url(".../../images/germany.svg") no-repeat left center;
   }
 
   .link {

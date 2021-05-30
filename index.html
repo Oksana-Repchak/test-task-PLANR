@@ -39,8 +39,7 @@
               <li class="item"><a class="link" href="#">DE</a></li>
             </ul>
           </div>
-
-          <button class="heder-button">Jetzt kontaktieren</button>
+          <a class="heder-button" href="#connection">Jetzt kontaktieren</a>
         </nav>
       </div>
     </header>
@@ -195,7 +194,11 @@
                   Flexibilität und Adaptionsfähigkeit. Wir sparen mit PlanR
                   Zeit, Kosten und Energie."
                 </p>
-                <img class="team-img" src="" alt="fhoto Christopher Martin" />
+                <img
+                  class="team-img"
+                  src="./images/team1.jpg"
+                  alt="fhoto Christopher Martin"
+                />
                 <cite class="team-name">Christopher Martin</cite>
                 <p class="team-profession">Product Manager</p>
               </blockquote>
@@ -224,7 +227,7 @@
       </section>
 
       <!-- section Features  -->
-      <section>
+      <section class="section-features">
         <div class="container">
           <h2 id="features" class="section-title">Main Features</h2>
           <p class="section-description">
@@ -232,10 +235,14 @@
             that you do not forget anything and feel confident with our planner
           </p>
 
+          <img src="./images/MacBookPro.png" alt="image MacBookPro" />
+
           <ul>
-            <li><img src="" alt="image planr" /></li>
-            <li><img src="" alt="image planr" /></li>
-            <li><img src="" alt="image planr calendar" /></li>
+            <li><img src="./images/slide1.jpg" alt="image planr" /></li>
+            <li><img src="./images/slide2.jpg" alt="image planr" /></li>
+            <li>
+              <img src="./images/slide3.jpg" alt="image planr calendar" />
+            </li>
           </ul>
 
           <button
@@ -246,115 +253,97 @@
             data-menu-button
           >
             Einsatzplanung
-            <svg
-              width="38"
-              height="38"
-              aria-label="Переключатель мобільного меню"
-            >
-              <use
-                class="icon-close"
-                href="./images/sprite.svg#close_40px"
-              ></use>
-              <use class="icon-menu" href="./images/sprite.svg#menu_40px"></use>
-            </svg>
-          </button>
-
-          <div class="menu-container" id="menu-container" data-menu>
-            <p>
-              Die erste Hauptansicht ist nach Mitarbeitern geordnet und zeigt
-              an, wer wann wo eingesetzt wird. Erklärung tbd
-            </p>
-          </div>
-
-          <button
-            type="button"
-            class="menu-button"
-            aria-expanded="false"
-            aria-controls="menu-container"
-            data-menu-button
-          >
-            Einsatzplanung
-            <svg
-              width="38"
-              height="38"
-              aria-label="Переключатель мобільного меню"
-            >
-              <use
-                class="icon-close"
-                href="./images/sprite.svg#close_40px"
-              ></use>
-              <use class="icon-menu" href="./images/sprite.svg#menu_40px"></use>
-            </svg>
-          </button>
-
-          <div class="menu-container" id="menu-container" data-menu>
-            <p>
-              Die erste Hauptansicht ist nach Mitarbeitern geordnet und zeigt
-              an, wer wann wo eingesetzt wird. Erklärung tbd
-            </p>
-          </div>
-          <button
-            type="button"
-            class="menu-button"
-            aria-expanded="false"
-            aria-controls="menu-container"
-            data-menu-button
-          >
-            Einsatzplanung
-            <svg
-              width="38"
-              height="38"
-              aria-label="Переключатель мобільного меню"
-            >
+            <svg width="38" height="38" aria-label="menu switch">
               <use class="icon-close" href="./images/sprite.svg#close"></use>
               <use class="icon-menu" href="./images/sprite.svg#menu"></use>
             </svg>
           </button>
 
-          <div class="menu-container" id="menu-container" data-menu>
-            <p>
-              Die erste Hauptansicht ist nach Mitarbeitern geordnet und zeigt
-              an, wer wann wo eingesetzt wird. Erklärung tbd
-            </p>
-          </div>
+          <p class="menu-container" id="menu-container" data-menu>
+            Die erste Hauptansicht ist nach Mitarbeitern geordnet und zeigt an,
+            wer wann wo eingesetzt wird. Erklärung tbd
+          </p>
+
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            Einsatzplanung
+            <svg width="38" height="38" aria-label="menu switch">
+              <use class="icon-close" href="./images/sprite.svg#close"></use>
+              <use class="icon-menu" href="./images/sprite.svg#menu"></use>
+            </svg>
+          </button>
+
+          <p class="menu-container" id="menu-container" data-menu>
+            Die erste Hauptansicht ist nach Mitarbeitern geordnet und zeigt an,
+            wer wann wo eingesetzt wird. Erklärung tbd
+          </p>
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            Einsatzplanung
+            <svg width="38" height="38" aria-label="menu switch">
+              <use class="icon-close" href="./images/sprite.svg#close"></use>
+              <use class="icon-menu" href="./images/sprite.svg#menu"></use>
+            </svg>
+          </button>
+
+          <p class="menu-container" id="menu-container" data-menu>
+            Die erste Hauptansicht ist nach Mitarbeitern geordnet und zeigt an,
+            wer wann wo eingesetzt wird. Erklärung tbd
+          </p>
         </div>
       </section>
 
       <!-- section Сonnection-->
-      <section>
+      <section class="section-connection">
         <div class="container">
-          <h2>
-            Wie sagt man so schön: <br /><q
-              >Probieren geht <br />über Studieren!
+          <h2 id="connection" class="section-title">
+            Wie sagt man so schön:
+            <q class="section-quotes"
+              ><span class="quotes-part-one">Probieren geht</span>
+              <span class="quotes-part-two">über Studieren!</span>
             </q>
           </h2>
           <form class="connection-form">
-            <label
+            <label class="label-e-mail"
               ><input
-                class="e-mail"
+                class="connection-e-mail"
                 type="email"
                 name="email"
                 id="email"
                 placeholder="E-mail"
             /></label>
 
-            <label>
+            <label class="label-textarea">
               <textarea
+                class="connection-textarea"
                 name="feedback"
-                rows="5"
+                rows="10"
                 placeholder="Ihre Nachricht"
               ></textarea>
             </label>
           </form>
-          <button type="submit">Mehr erfahren</button>
+          <button class="connection-button" type="submit">Mehr erfahren</button>
         </div>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <a href="" class="logo">PLANR</a>
-        <p>
+        <a href="" class="logo"
+          ><svg class="icon-logo" width="134" height="75" aria-label="logo">
+            <use href="./images/sprite.svg#logo"></use></svg
+        ></a>
+        <p class="footer-text">
           Made with
           <span
             ><svg width="18" height="18" aria-label="image heart">
@@ -369,5 +358,6 @@
         <p>&copy; 2020, PLANR</p>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

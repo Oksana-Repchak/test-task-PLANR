@@ -45,25 +45,27 @@
     content: "";
     width: 17px;
     height: 17px;
-    background-image: url("../../images/circle.svg");
+    background-image: url(".../../images/circle.svg");
     background-repeat: no-repeat;
     background-position: 48% 40%;
     border-radius: 50%;
+    box-shadow: 1px 4px 18px rgba(0, 0, 0, 0.25);
   }
 
   &::after {
     position: absolute;
+    content: "";
     top: 0;
     left: 100%;
     transform: translate(-10px, -5px);
     display: inline-block;
-    content: "";
     width: 17px;
     height: 17px;
-    background-image: url("../../images/circle.svg");
+    background-image: url(".../../images/circle.svg");
     background-repeat: no-repeat;
     background-position: 48% 40%;
     border-radius: 50%;
+    box-shadow: 1px 4px 18px rgba(0, 0, 0, 0.25);
   }
 }
 
