@@ -165,12 +165,12 @@ img {
   content: "";
   width: 24px;
   height: 24px;
-  background: url(".../../images/united-kingdom.svg") no-repeat left center;
+  background: url("../../images/united-kingdom.svg") no-repeat left center;
 }
 
 .dropbtn::after {
   position: absolute;
-  background: url(".../../images/frame.svg") no-repeat scroll center center;
+  background: url("../../images/frame.svg") no-repeat scroll center center;
   content: "";
   width: 16px;
   height: 16px;
@@ -193,12 +193,12 @@ img {
 
 .dropdown-content .item:first-child {
   margin-right: 8px;
-  background: url(".../../images/united-kingdom.svg") no-repeat left center;
+  background: url("../../images/united-kingdom.svg") no-repeat left center;
 }
 
 .dropdown-content .item:last-child {
   margin-right: 8px;
-  background: url(".../../images/germany.svg") no-repeat left center;
+  background: url("../../images/germany.svg") no-repeat left center;
 }
 
 .dropdown-content .link {
