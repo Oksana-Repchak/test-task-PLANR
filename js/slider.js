@@ -1,3 +1,5 @@
+'use strict';
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -10,14 +12,16 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  let i;
   const slides = document.getElementsByClassName("mySlides");
+
   if (n > slides.length) {
     slideIndex = 1;
   }
+
   if (n < 1) {
     slideIndex = slides.length;
   }
+
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }

@@ -16,7 +16,7 @@
   display: flex;
 }
 
-.slider-card {
+.vorteile-slider-card {
   width: 350px;
   height: 542px;
   padding: 35px 30px 28px;
@@ -34,4 +34,80 @@
   font-size: 25px;
   line-height: 1.4;
   margin-bottom: 20px;
+}
+
+// _________sider______
+.slides-vorteile {
+  justify-content: space-evenly;
+  display: none;
+}
+
+.slideshow-container-vorteile {
+  max-width: 1380px;
+  position: relative;
+  margin: auto;
+}
+
+.prev-vorteile,
+.next-vorteile {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  transform: translateY(-50%);
+  transition: 0.6s ease;
+}
+
+.prev-vorteile {
+  transform: translateX(-100px);
+}
+.next-vorteile {
+  transform: translateX(100px);
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev-vorteile:hover,
+.next-vorteile:hover {
+  border: 1px solid $accent-color;
+  border-radius: 50%;
+}
+
+/* Fading animation */
+.fade-vorteile {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev-vorteile,
+  .next-vorteile,
+  .text {
+    font-size: 11px;
+  }
+}
+
+.fade:not(.show) {
+  opacity: 1;
 }
