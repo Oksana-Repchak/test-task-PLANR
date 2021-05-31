@@ -114,7 +114,7 @@
   transition: all 250ms $timing-function;
 }
 
-.active,
+.active-accordion,
 .accordion:hover,
 :focus {
   color: $accent-color;
@@ -122,13 +122,19 @@
 }
 
 .accordion:after {
-  content: url("../../images/plus.svg");
+  content: '';
+  background-image: url('.../../images/plus.svg');
+  width: 38px;
+  height: 38px;
   float: right;
   margin-left: 10px;
 }
 
-.active:after {
-  content: url("../../images/close.svg");
+.active-accordion:after {
+  content: '';
+  background-image: url('.../../images/close.svg');
+  width: 38px;
+  height: 38px;
 }
 
 .panel {

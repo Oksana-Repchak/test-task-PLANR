@@ -7,6 +7,12 @@
     <title>PLANR</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,900;1,400&display=swap"
       rel="stylesheet"
     />
@@ -184,76 +190,85 @@
         <div class="container">
           <h2 class="team-title visually-hidden">Team</h2>
 
-          <div class="slider">
-            <div class="slider__container">
-              <div class="slider__wrapper">
-                <div class="slider__items">
-                  <div class="slider__item">
-                    <blockquote class="block-quote">
-                      <p class="quote">
-                        "Lange habe ich ein Tool gesucht, dass den Anforderungen
-                        eines KMU in der Baubranche gerecht werden kann.
-                        Herausforderung stellen Disponierung, Einsatz- und
-                        Abweseheitspplanung und Projektzuteilung dar. PlanR
-                        überzeugt mit Einfachheit, Flexibilität und
-                        Adaptionsfähigkeit. Wir sparen mit PlanR Zeit, Kosten
-                        und Energie."
-                      </p>
-                      <img
-                        class="team-img"
-                        src="./images/team1.jpg"
-                        alt="fhoto Christopher Martin"
-                      />
-                      <cite class="team-name">Christopher Martin</cite>
-                      <p class="team-profession">Product Manager</p>
-                    </blockquote>
-                  </div>
-                  <div class="slider__item">
-                    <blockquote class="block-quote">
-                      <p class="quote">
-                        "Lange habe ich ein Tool gesucht, dass den Anforderungen
-                        eines KMU in der Baubranche gerecht werden kann.
-                        Herausforderung stellen Disponierung, Einsatz- und
-                        Abweseheitspplanung und Projektzuteilung dar. PlanR
-                        überzeugt mit Einfachheit, Flexibilität und
-                        Adaptionsfähigkeit. Wir sparen mit PlanR Zeit, Kosten
-                        und Energie."
-                      </p>
-                      <img
-                        class="team-img"
-                        src="./images/team1.jpg"
-                        alt="fhoto Christopher Martin"
-                      />
-                      <cite class="team-name">Christopher Martin</cite>
-                      <p class="team-profession">Product Manager</p>
-                    </blockquote>
-                  </div>
-                  <div class="slider__item">
-                    <blockquote class="block-quote">
-                      <p class="quote">
-                        "Lange habe ich ein Tool gesucht, dass den Anforderungen
-                        eines KMU in der Baubranche gerecht werden kann.
-                        Herausforderung stellen Disponierung, Einsatz- und
-                        Abweseheitspplanung und Projektzuteilung dar. PlanR
-                        überzeugt mit Einfachheit, Flexibilität und
-                        Adaptionsfähigkeit. Wir sparen mit PlanR Zeit, Kosten
-                        und Energie."
-                      </p>
-                      <img
-                        class="team-img"
-                        src="./images/team1.jpg"
-                        alt="fhoto Christopher Martin"
-                      />
-                      <cite class="team-name">Christopher Martin</cite>
-                      <p class="team-profession">Product Manager</p>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <blockquote class="block-quote">
+                <p class="quote">
+                  "Lange habe ich ein Tool gesucht, dass den Anforderungen eines
+                  KMU in der Baubranche gerecht werden kann. Herausforderung
+                  stellen Disponierung, Einsatz- und Abweseheitspplanung und
+                  Projektzuteilung dar. PlanR überzeugt mit Einfachheit,
+                  Flexibilität und Adaptionsfähigkeit. Wir sparen mit PlanR
+                  Zeit, Kosten und Energie."
+                </p>
+                <img
+                  class="team-img"
+                  src="./images/team1.jpg"
+                  alt="fhoto Christopher Martin"
+                />
+                <cite class="team-name">Christopher Martin</cite>
+                <p class="team-profession">Product Manager</p>
+              </blockquote>
             </div>
-            <!-- Кнопки -->
-            <a href="#" class="slider__control" data-slide="prev"></a>
-            <a href="#" class="slider__control" data-slide="next"></a>
+
+            <div class="mySlides fade">
+              <blockquote class="block-quote">
+                <p class="quote">
+                  "Lange habe ich ein Tool gesucht, dass den Anforderungen eines
+                  KMU in der Baubranche gerecht werden kann. Herausforderung
+                  stellen Disponierung, Einsatz- und Abweseheitspplanung und
+                  Projektzuteilung dar. PlanR überzeugt mit Einfachheit,
+                  Flexibilität und Adaptionsfähigkeit. Wir sparen mit PlanR
+                  Zeit, Kosten und Energie."
+                </p>
+                <img
+                  class="team-img"
+                  src="./images/team2.jpg"
+                  alt="fhoto Christopher Martin"
+                />
+                <cite class="team-name">Christopher Martin</cite>
+                <p class="team-profession">Product Manager</p>
+              </blockquote>
+            </div>
+
+            <div class="mySlides fade">
+              <blockquote class="block-quote">
+                <p class="quote">
+                  "Lange habe ich ein Tool gesucht, dass den Anforderungen eines
+                  KMU in der Baubranche gerecht werden kann. Herausforderung
+                  stellen Disponierung, Einsatz- und Abweseheitspplanung und
+                  Projektzuteilung dar. PlanR überzeugt mit Einfachheit,
+                  Flexibilität und Adaptionsfähigkeit. Wir sparen mit PlanR
+                  Zeit, Kosten und Energie."
+                </p>
+                <img
+                  class="team-img"
+                  src="./images/team3.jpg"
+                  alt="fhoto Christopher Martin"
+                />
+                <cite class="team-name">Christopher Martin</cite>
+                <p class="team-profession">Product Manager</p>
+              </blockquote>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"
+              ><svg
+                class="icon-slider-team"
+                width="17"
+                height="30"
+                aria-label="left-arrow"
+              >
+                <use href="./images/sprite.svg#left-arrow"></use></svg
+            ></a>
+            <a class="next" onclick="plusSlides(1)"
+              ><svg
+                class="icon-slider-team"
+                width="17"
+                height="30"
+                aria-label="right-arrow"
+              >
+                <use href="./images/sprite.svg#right-arrow"></use></svg
+            ></a>
           </div>
         </div>
       </section>
@@ -381,22 +396,7 @@
         <p>&copy; 2020, PLANR</p>
       </div>
     </footer>
-    <!-- <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-          }
-        });
-      }
-    </script> -->
+    <script src="./js/slider.js"></script>
     <script src="./js/accordion.js"></script>
   </body>
 </html>
